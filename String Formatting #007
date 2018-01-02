@@ -1,0 +1,25 @@
+age = 18
+
+print("My age is " + str(age) + " years old")
+
+print("My age is {0} years old".format(age))
+
+print("There are {0} days in {1}, {2}, {3} and {4}".format(30, "September", "April", "June", "November"))
+
+
+print("\n")
+
+print("""January: {2} days
+February: {0} days
+March: {2} days
+April: {1} days
+""".format(28, 30, 31))
+
+print("My age is %d years old" % age)
+
+print("My age is %d %s and %d %s" % (age, "years old", 6, "months"))
+
+for i in range(1,10):
+    print(i)
+
+print("Pi is approximately %f" % (22 / 7))
